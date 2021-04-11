@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
   font-size: 62.5%;/* ★px指定でも良い。= 10pxでも良い。*/
   /* 62.5% = 5/8 = 10px つまり、デフォルトのフォントサイズが16px。*/
@@ -12,6 +16,9 @@ body {
 img {
   width: 100%;
   vertical-align: bottom;/* ★imgは（インライン要素のため）vertical-alignの初期値がbaselineになっている。これだと、画像の下に隙間が空いてしまう。 */
+}
+ul {
+  list-style: none;
 }
 .section-wrapper {
   padding: 100px 0 70px;
